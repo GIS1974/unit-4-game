@@ -1,0 +1,56 @@
+body {
+    background-image: url("../images/universe.jpg");
+    background-size: 100%;
+    font-family: 'MedievalSharp', cursive;
+    color: #0d627e;
+    font-weight: bold;
+}
+
+p {
+    margin: 10px;
+}
+
+h1 {
+    font-size: 60px;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px #83a5bd;
+}
+
+.header {
+    background: #e6e6e6;
+    width: 960px;
+    margin: auto;
+    margin-top: 20px;
+    padding: 30px;
+    text-align: center;
+
+}
+
+.page {
+    background: #e6e6e6;
+    width: 960px;
+    height: 400px;
+    margin: auto;
+    margin-top: 20px;
+    padding: 30px;
+}
+
+.crystals {
+    margin: 50px 0 0 270px;
+}
+
+.info {
+    font-size: 24px;
+    color: white;
+    background: #0d627e;
+    width: 280px;
+    margin: auto;
+    margin-top: 30px;
+    padding: 5px;
+    box-shadow: 3px 3px #83a5bd;
+}
+
+img {
+    height: 120px;
+    float: left;
+}

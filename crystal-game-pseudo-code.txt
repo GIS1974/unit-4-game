@@ -1,0 +1,33 @@
+1. Generating 5 random numbers:
+- integer1, integer2, integer3, integer4 (1<=>12) -- for each crystal.
+- integer5 (19<=>120) to compare with.
+var1 = integer1
+...
+var5 = integer5
+variable "crystalSum" (integer) = 0
+winsCount = 0
+lossCount = 0
+
+
+2. For each crystal create function doing following:
+- when user click crystal(n) add the value of integer(n) to the value of variable "crystalSum"
+- icrease the value of "crystalSum" by integer(n)
+
+
+3. After every cryslal click compare value of "crystalSum" and integer5
+
+
+4. If "crystalSum" == integer5 player wins, winsCount++; 
+reset "crystalSum" = 0
+generate new values fo integer1...5
+
+
+5. If "crystalSum" > integer5 player loses, lossCount++; 
+reset "crystalSum" = 0
+generate new values fo integer1...5
+
+
+
+
+
+
